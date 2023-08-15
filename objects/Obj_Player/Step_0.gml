@@ -1,6 +1,7 @@
-keyRight = keyboard_check(ord("D"))
-keyLeft = keyboard_check(ord("A"))
-keyJump = keyboard_check_pressed(ord("Z"))
+keyRight = keyboard_check(vk_right)
+keyLeft = keyboard_check(vk_left) 
+keyJump = keyboard_check_pressed(vk_space)
+keyBoost = keyboard_check_pressed(vk_shift)
 //Walk and Fall Torture
 hsp = (keyRight-keyLeft) * Walk_Speed
 vsp = vsp + (Weight)
