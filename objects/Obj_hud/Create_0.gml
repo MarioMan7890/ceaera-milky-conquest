@@ -1,1 +1,0 @@
-global.testfont = font_add_sprite_ext(spr_fonttest, "!.1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ", true, 1)
