@@ -25,4 +25,4 @@
 //      - Media keys
 //You can modify this list at any time by calling input_ignore_key_add() or input_ignore_key_remove()
 //This setting only affects Input and will not filter these keys from native GameMaker functions
-#macro INPUT_IGNORE_RESERVED_KEYS_LEVEL  2
+#macro INPUT_IGNORE_RESERVED_KEYS_LEVEL  1

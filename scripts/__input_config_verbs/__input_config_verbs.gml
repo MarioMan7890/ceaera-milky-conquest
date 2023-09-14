@@ -17,11 +17,11 @@ return {
         left:  [input_binding_key(vk_left),  input_binding_key("A")],
         right: [input_binding_key(vk_right), input_binding_key("D")],
         
-        accept:  input_binding_key("N"),
-        cancel:  input_binding_key("M"),
-        action:  input_binding_key("N"),
-        special: input_binding_key("M"),
-		gimmick: input_binding_key("B"),
+        accept:  input_binding_key("Z"),
+        cancel:  input_binding_key("X"),
+        action:  [input_binding_key("Z"),input_binding_key(vk_space)],
+        special: [input_binding_key("C"),input_binding_key(vk_shift)],
+		gimmick: input_binding_key("X"),
         
         //No aiming verbs since we use the mouse for that (see below for aiming verb examples)
         shoot: input_binding_mouse_button(mb_left),
