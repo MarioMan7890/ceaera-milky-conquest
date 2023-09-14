@@ -12,7 +12,7 @@ runsp = 12
 
 jumpspeed = -7.5
 jump_max = 2;
-jump_count = 2;
+jump_count = 0;
 jump_hold_frames = 15;
 jump_timer = 0;
 

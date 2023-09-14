@@ -2,12 +2,16 @@
 //GET PLAYER INPUT
 key_left = input_check("left");
 key_right = input_check("right");
-key_jump = input_check_pressed("up");
-jump_key_hold = input_check_pressed("up");
+key_jump = input_check_pressed("action");
+jump_key_hold = input_check_long_pressed("action")
+key_run = input_check("special")
 
 var move = key_right - key_left;
 
-hsp = move * walksp;
+if key_run 
+{hsp = move * runsp}
+else
+{hsp = move * walksp;}
 
 vsp = vsp + grv;
 
